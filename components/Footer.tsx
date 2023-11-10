@@ -10,10 +10,10 @@ const Footer = () => {
           <div className='flex flex-col items-start justify-center gap-14 md:flex-row flex1'>
             <Link href={"/"} className=''>
               <Image 
-              src={"hilink-logo.svg"}
+              src={"logo.svg"}
               alt='logo img'
-              width={74}
-              height={29}
+              width={150}
+              height={50}
               />
             </Link>
 

@@ -11,10 +11,10 @@ const Navbar = () => {
     <nav className='flexBetween max-container padding-container relative z-30 py-5'>
         <Link href={"/"}>
             <Image 
-            src={"/hilink-logo.svg"}
+            src={"/logo.svg"}
             alt='logo img'
-            width={80}
-            height={50}
+            width={250}
+            height={60}
             />
         </Link>
         <ul className='hidden h-full gap-12 lg:flex'>
