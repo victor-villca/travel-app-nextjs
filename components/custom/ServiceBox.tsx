@@ -8,8 +8,8 @@ type ServiceBoxProps = {
 
 const ServiceBox = ({img, title, description}: ServiceBoxProps) => {
   return (
-    <div className=' flex flex-col gap-6 justify-center items-center
-    rounded-2xl  px-5 py-1 bg-gray-100 lg:px-8 lg:py-12 h-80 lg:h-96
+    <div className=' bg-white flex flex-col gap-6 justify-center items-center
+    rounded-2xl  px-5 py-1  lg:px-8 lg:py-12 h-80 lg:h-96
     '>
         <div className='m-1 object-contain'>
             <Image src={img} alt='img alt' width={100} height={100}/>

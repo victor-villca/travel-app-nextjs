@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import {AiFillStar, AiOutlineCloseCircle} from 'react-icons/ai'
 import Button from './custom/Button'
-import {GiCrocJaws} from 'react-icons/gi'
+import { GiBolivia } from "react-icons/gi";
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
         <div className='flex flex-col w-full gap-3 sm:flex-row'>
           <Button type='button' txt='Download The App' variant='btn_green'/>
-          <Button type='button' txt='Download The App' variant='btn_white_text' icon={GiCrocJaws}/>
+          <Button type='button' txt='Download The App' variant='btn_white_text' icon={GiBolivia}/>
         </div>
 
         <div className='relative flex flex-1 items-start m-8'>

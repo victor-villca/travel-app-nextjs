@@ -124,3 +124,24 @@ export const SERVICES_INFO = [
     img: '/travel.png'
   },
 ]
+
+export const DESTINATIONS_INFO = [
+  {
+    place: 'Cochambamba, Bolivia',
+    price: '100',
+    img: 'https://cdn.pixabay.com/photo/2013/03/27/20/01/bolivia-97221_1280.jpg',
+    tripDays: '5'
+  },
+  {
+    place: 'La Paz, Bolivia',
+    price: '120',
+    img: 'https://cdn.pixabay.com/photo/2020/03/10/13/53/flamingos-4919079_1280.jpg',
+    tripDays: '5'
+  },
+  {
+    place: 'Santa Cruz, Bolivia',
+    price: '115',
+    img: 'https://cdn.pixabay.com/photo/2014/02/03/01/04/seville-257057_1280.jpg',
+    tripDays: '5'
+  },
+]
