@@ -101,3 +101,26 @@ export const FOOTER_CONTACT_INFO = {
     { label: 'Email Officer', value: 'hilink@akinthil.com' },
   ],
 };
+
+export const SERVICES_INFO = [
+  {
+    title: 'Calculated Weather',
+    description: 'Built Wicket longer admire do barton vanity itself do in it.',
+    img: '/weather.png'
+  },
+  {
+    title: 'Best Flights',
+    description: 'Engrossed listening. Park gate sell they west hard for the.',
+    img: '/plane.png'
+  },
+  {
+    title: 'Local Events',
+    description: 'Barton vanity itself do in it. Preferd to men it engrossed listening.',
+    img: '/sing.png'
+  },
+  {
+    title: 'Road Travels',
+    description: 'Engrossed listening. Park gate sell they west hard for the.',
+    img: '/travel.png'
+  },
+]

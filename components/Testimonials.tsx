@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Guide = () => {
+const Testimonials = () => {
   return (
     <div>Guide</div>
   )
 }
 
-export default Guide
+export default Testimonials

@@ -1,17 +1,19 @@
-import Camp from "@/components/Camp";
-import Features from "@/components/Features";
-import GetApp from "@/components/GetApp";
-import Guide from "@/components/Guide";
+import Services from "@/components/Services";
+import Destinations from "@/components/Destinations";
+import Tutorial from "@/components/Tutorial";
+import Testimonials from "@/components/Testimonials";
 import Hero from "@/components/Hero";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <div>
       <Hero />
-      <Camp />
-      <Guide />
-      <Features />
-      <GetApp />
+      <Services />
+      <Testimonials />
+      <Destinations />
+      <Tutorial />
+      <Contact />
     </div>
   )
 }

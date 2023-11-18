@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import {AiFillStar, AiOutlineCloseCircle} from 'react-icons/ai'
-import Button from './Button'
+import Button from './custom/Button'
 import {GiCrocJaws} from 'react-icons/gi'
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
           height={55}
           className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
         />
-        <h1 className=' mt-2  bold-52 lg:bold-88'>Bolivia Camp Area</h1>
+        <h1 className=' mt-2  bold-52 lg:bold-88'>Bolivia Turistic Travel</h1>
         <p className='regular-16 mt-6 text-gray-30 xl:max-w-lg'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatum voluptate sapiente ipsa ullam molestias facilis ea assumenda pariatur beatae aspernatur, commodi dignissimos amet ex expedita tempore voluptates, ipsum tenetur?
         </p>

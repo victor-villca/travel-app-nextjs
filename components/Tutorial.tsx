@@ -1,9 +1,9 @@
 import React from 'react'
 
-const GetApp = () => {
+const Tutorial = () => {
   return (
     <div>GetApp</div>
   )
 }
 
-export default GetApp
+export default Tutorial

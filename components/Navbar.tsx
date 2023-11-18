@@ -2,7 +2,7 @@ import { NAV_LINKS } from '@/constants/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Button from './Button'
+import Button from './custom/Button'
 import {AiOutlineUser, } from 'react-icons/ai'
 import {FaBars, } from 'react-icons/fa'
 
